@@ -11,39 +11,38 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Uniswap</h3>
+                    <h3>Papilo Swap</h3>
                     <img src={uniswap} alt="Uniswap Swap Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <p>This is a decentralized cryptocurrencies exchange that was built using
+                        Moralis servers along with 1inch plugins.
+                        This app enables users to connect their wallet address through
+                        Metamask and swap available tokens. 
                     </p>
 
-                    <a href="https://uniswap.org/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/Uniswap/v2-core" target="_blank" className="button">Code</a>
+                    <a href="https://gateway.pinata.cloud/ipfs/QmcLz52eMq1CCKWtcLR65y1iAyMRdf8WEayBcwesSWpmq3/" target="_blank" className="button">Site</a>
+                    <a href="https://github.com/Papilo28/papilo-dex/tree/main/dexapp" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">
-                    <h3>Compound</h3>
+                    <h3>Defi Dashboard</h3>
                     <img src={compound} alt="Compound Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <p>This dapp was written in vanilla js and was connected to a cross-chain
+                        server from moralis, this dapp will populate the tokens and NFTs of an
+                        address from all different mainnet chains.
                     </p>
 
-                    <a href="https://compound.finance/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/compound-finance/compound-protocol" target="_blank" className="button">Code</a>
+                    <a href="https://ipfs.io/ipfs/QmVQdzU48VQhKvqoZfHgACjahMKxfzuXyAKdCjw27Jvp9c/" target="_blank" className="button">Site</a>
+                    <a href="https://github.com/Papilo28/defi-dashboard" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">
-                    <h3>Aave</h3>
+                    <h3>Papilo Punk</h3>
                     <img src={aave} alt="Aave Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <p>This NFT collection was launched on the ropsten tesnet for demonstration purposes only.
                     </p>
 
-                    <a href="https://aave.com/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/aave/aave-v3-core" target="_blank" className="button">Code</a>
+                    <a href="https://testnets.opensea.io/collection/papilo-punk-v2/" target="_blank" className="button">Site</a>
+                    <a href="https://github.com/Papilo28/PapiloPunk/tree/main/PapiloPunk" target="_blank" className="button">Code</a>
                 </div>
             </div>
         </section>

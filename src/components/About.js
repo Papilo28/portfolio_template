@@ -6,14 +6,11 @@ const About = () => {
         <section className='about'>
             <h2>About Me</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Neque, pariatur odio.
-                Maxime, labore nihil illo ea voluptate suscipit aliquid animi
-                possimus laudantium fugit obcaecati harum?
-                Assumenda maiores nam magnam animi? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Eaque voluptatibus vitae, rem corrupti id consectetur!
-                Sapiente laboriosam nam excepturi exercitationem natus unde, harum
-                consequatur vero amet consectetur quod sunt autem!
+                My name is Papilo, I began my development journey in May 2021 and since then
+                I've been involved in several projects that requires knowledge of both the backend
+                infrasturctures such as solidity smart contract coding for; cryptocurrencies, NFTs,
+                crowdfunding, and frontend infrastructures in which I specify mainly on javascript and
+                Web3.js for their development.
             </p>
         </section>
     );
